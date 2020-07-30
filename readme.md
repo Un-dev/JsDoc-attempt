@@ -11,9 +11,20 @@
 
 * run 
     ```bash 
-    npm install @babel/core @babel/register @babel/preset-env --save-dev
+    npm install -D @babel/core @babel/register @babel/preset-env 
+    ```
+
+* run 
+    ```bash 
+    npm install -D -g jsdoc 
     ```
 * run 
     ```bash 
-    npm start
+    npm run jsdoc 
     ```
+
+* finally run 
+    ```bash 
+    firefox ./out/index.html
+    ```
+    to see the generated documentation

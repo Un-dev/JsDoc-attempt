@@ -1,9 +1,20 @@
 import ListNode from './ListNode'
-export default class LinkedList {
+
+/**@class */
+class LinkedList {
+    
+    /**
+    * Create a LinkedList.
+    * @constructor
+    */
     constructor(head = null) {
         this.head = head
     }
     
+    /**
+    * Push a node at the end of the list.
+    * @param {ListNode} The node you want to push
+    */
     push(node){
         let curr = this.head
         let next = curr.next
@@ -19,6 +30,10 @@ export default class LinkedList {
         }   
     }
 
+    /**
+    * Represents a LinkedList in the form of a String.
+    * @return {String} Every node of the list seperated by a comma
+    */
     toString(){
         let res = ''
         let curr = this.head
@@ -35,6 +50,10 @@ export default class LinkedList {
         return res
     }
 
+    /**
+    * Reverse a list the iterative way.
+    * @return {pointer} The head of the reversed list
+    */
     iterativeReverse(){
         let prev = null
         let curr = this.head
@@ -50,6 +69,10 @@ export default class LinkedList {
         return prev
     }
 
+    /**
+    * Reverse a list the recursive way.
+    * @return {pointer} The head of the reversed list
+    */
     recursiveReverse(prev = null){
         let curr = this.head
         let next = curr.getNext()
@@ -62,3 +85,4 @@ export default class LinkedList {
     }
 }
 
+export default LinkedList
