@@ -1,6 +1,6 @@
 # Little JsDocs Try
 
-* I was just trying to see how reversing LinkedLists actually works because I had never tried and told myself that it may be an opportunity to try out the Javascript documentation generator ```JsDoc``` in the meantime and to show my *documentation skills*
+* I was just exercising at reversing LinkedLists and told myself that it may be an opportunity to try out the Javascript documentation generator ```JsDoc``` in the meantime and to show my *documentation skills*
 
 ## Prerequisites
 
