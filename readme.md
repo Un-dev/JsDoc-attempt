@@ -11,13 +11,9 @@
 
 * run 
     ```bash 
-    npm install -D @babel/core @babel/register @babel/preset-env 
+    npm install 
     ```
-
-* then run 
-    ```bash 
-    npm install -D -g jsdoc 
-    ```
+    
 * then run 
     ```bash 
     npm run jsdoc 
